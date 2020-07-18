@@ -1,10 +1,20 @@
 let toggleBtn = document.getElementById("mobile-toggle");
 let navbarOverlay = document.querySelector('.navbar-overlay');
+let navLinks = document.getElementsByClassName('nav-link');
 
-toggleBtn.addEventListener("click", () => {
+const toggleNavVisibility = () => {
   toggleBtn.classList.toggle("icon");
   navbarOverlay.classList.toggle('visibility');
+};
+
+for (let navLink of navLinks) {
+  navLink.addEventListener('click', toggleNavVisibility);
+};
+
+toggleBtn.addEventListener("click", () => {
+  toggleNavVisibility();
 });
+
 
 
 
