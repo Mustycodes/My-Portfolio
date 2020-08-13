@@ -354,7 +354,6 @@ section#hero {
   display:inline-block;
   max-width: 100%;
   width: 120px;
-  /* height: 120px; */
   padding:10px;
   -webkit-filter: saturate(60%);
           filter: saturate(60%);
