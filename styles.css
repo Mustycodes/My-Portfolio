@@ -403,6 +403,16 @@ section#hero {
   -o-object-fit: cover;
      object-fit: cover;
 }
+.project-image .img-temporary {
+  /* display: block; */
+  /* max-width: 100%; */
+  width: 100%;
+  height: 70%;
+  background-color: black;
+  font-size: 2rem;
+  /* -o-object-fit: cover; */
+     /* object-fit: cover; */
+}
 .project-image h3 {
   padding: 0 5px;
   vertical-align: center;
