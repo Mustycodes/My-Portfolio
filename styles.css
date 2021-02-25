@@ -603,8 +603,6 @@ footer {
     z-index: 1;
   }
   .project-image h3 {
-    background: -webkit-gradient(linear, left bottom, right top, from(#4389a2f5), to(#435aa2f5));
-    background: -o-linear-gradient(bottom left, #4389a2f5, #435aa2f5);
     background: var(--blacky);
   }
   .project-card:hover .project-image {

@@ -8,7 +8,9 @@ const toggleNavVisibility = () => {
 };
 
 for (let navLink of navLinks) {
-  navLink.addEventListener('click', toggleNavVisibility);
+  navLink.addEventListener('click', () => {
+    navbarOverlay.classList.remove('visibility');
+  });
 };
 
 toggleBtn.addEventListener("click", () => {
