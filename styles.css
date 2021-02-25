@@ -5,6 +5,7 @@
 * Browsers: last 4 version
 */
 
+
 /* Default Styles */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 :root {
@@ -18,7 +19,8 @@
   width: 20px;
 }
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px #43a28b;
+  -webkit-box-shadow: inset 0 0 5px #43a28b;
+          box-shadow: inset 0 0 5px #43a28b;
   border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb {
@@ -211,11 +213,10 @@ summary {
 }
 
 .navbar-overlay {
-  background-color: var(--fallbackcolor);
-  /* background: -webkit-gradient(linear, left top, left bottom, from(#4389a2f5), to(#33154ef5));
-  background: -o-linear-gradient(top, #4389a2f5, #33154ef5);
-  background: linear-gradient(to bottom, #4389a2f5, #33154ef5); */
+  background: -webkit-gradient(linear, left bottom, right top, from(black), to(#0d0f12));
+  background: -o-linear-gradient(bottom left, black, #0d0f12);
   background: linear-gradient(to top right, black, #0d0f12);
+  background-color: var(--fallbackcolor);
   height: 100%;
   width: 0%;
   position: fixed;
@@ -311,7 +312,8 @@ section#hero {
   margin-bottom: 1.5rem;
   border: 10px solid transparent;
   border-radius: 50%;
-  box-shadow: 0px 10px 30px rgb(0, 0, 0);
+  -webkit-box-shadow: 0px 10px 30px rgb(0, 0, 0);
+          box-shadow: 0px 10px 30px rgb(0, 0, 0);
 }
 .hero__content h3,
 .hero__content h4 {
@@ -386,7 +388,6 @@ section#hero {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-  /* border: 2px solid red; */
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
   overflow: hidden;
@@ -638,24 +639,3 @@ footer {
     opacity: 1;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
