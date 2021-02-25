@@ -386,58 +386,42 @@ section#hero {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  /* border: 2px solid red; */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  overflow: hidden;
 }
 .project-image .content {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-  height: 100%;
+  height: 80%;
 }
 
 .project-image img {
   display: block;
   max-width: 100%;
   width: 100%;
-  height: 70%;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 .project-image .img-temporary {
-  /* display: block; */
-  /* max-width: 100%; */
   width: 100%;
   height: 70%;
   background-color: black;
   font-size: 2rem;
-  /* -o-object-fit: cover; */
-     /* object-fit: cover; */
 }
 .project-image h3 {
-  padding: 0 5px;
+  padding: 5px;
   vertical-align: center;
   margin: 0;
-  /* height: 30%; */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background: -webkit-gradient(linear, left top, right top, from(#4389a2f5), to(#435aa2f5));
-  background: -o-linear-gradient(left, #4389a2f5, #435aa2f5);
-  background: linear-gradient(to right, #4389a2f5, #435aa2f5);
   text-align: center;
 }
 
 .project-detail {
   position: relative;
-  padding: 20px;
-  background: -webkit-gradient(linear, left top, right top, from(#4389a2), to(#435aa2));
-  background: -o-linear-gradient(left, #4389a2, #435aa2);
-  background: linear-gradient(to right, #4389a2, #435aa2);
+  padding: 15px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
